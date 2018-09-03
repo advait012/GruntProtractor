@@ -1,0 +1,9 @@
+Install Grunt-cli   globally   -- > npm install  -g grunt-cli 
+Create grunt file in root directory of the project folder 
+create package.json file
+add grunts dependenncy in package.json in root project folder
+dd grunt-protractor runner dependenncy in package.json in project folder
+Install Grunt --> npm install grunt --save-dev
+Install grunt protractor runner --> npm install grunt-protractor-runner --save-dev
+Copy grunt protractor runner folder in project folder
+run gulp in cmd in project folder - grunt taskname
