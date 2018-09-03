@@ -32,10 +32,7 @@ exports.config = {
 
 	    	
 	    
-	  var HtmlReporter = require('protractor-beautiful-reporter');
-	  jasmine.getEnv().addReporter(new HtmlReporter({
-	         baseDirectory: 'tmp/screenshots'
-	      }).getJasmine2Reporter());
+	 
 	    browser.driver.manage().window().maximize();
 	    browser.ignoreSynchronization=true;
 	    
