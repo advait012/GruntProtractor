@@ -7,3 +7,18 @@ Install Grunt --> npm install grunt --save-dev
 Install grunt protractor runner --> npm install grunt-protractor-runner --save-dev
 Copy grunt protractor runner folder in project folder
 run gulp in cmd in project folder - grunt taskname
+
+add project in git 
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/advait012/GruntProtractor.git
+git push -u origin master
+
+make new item in jenkins 
+Enter --> call npm install 
+grunt taskname 
+in build information
+
+
