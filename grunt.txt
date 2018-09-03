@@ -22,3 +22,31 @@ grunt taskname
 in build information
 
 
+For reporting 
+add protractor-jasmine2-html-reporter in package.json
+Go to post build 
+Select Editable email notification
+Enter recipent ids
+content type = both html and plain text
+Default content = 
+Hi All,
+<br></br>
+Please find below the latest Testing Report
+<br></br>
+
+
+
+Attachments = 
+tmp/screenshots/**
+
+Go to Advanced settings and specify the trigger
+
+Go to manage jenkins - configure system-email notification
+
+smtp server- smtp.gmail.com
+Advanced - Use SMTP Authentication
+Usernname-xxx
+password-xx
+Use SSL
+SMTP port -465
+charset -UTF-8 
